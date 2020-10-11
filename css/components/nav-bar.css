@@ -14,5 +14,22 @@
 }
 
 .nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__comment-notification {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nav__ellipsis-notification {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    position: absolute;
+    left: 30px;
 }
