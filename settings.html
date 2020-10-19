@@ -22,16 +22,44 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <span><i class="fas fa-chevron-left fa-lg"></i></i></span>
-        <h1 class="screen-header__title">Settings</h1>
-        <div class="screen-header__icons">
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="javascript:history.back()">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__title">Settings</span>
+        </div>
+        <div class="alt-header__column">
             <span><i class="fas fa-search fa-lg"></i></span>
         </div>
     </header>
 
     <main class="mian-screen">
-        
+        <ul class="setting-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kokoa Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">Latest Version</div>
+            </li>
+        </ul>
     </main>
 
     <nav class="nav">
