@@ -18,10 +18,23 @@
     color: #2e363e;
 }
 
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
 .nav__comment-notification {
     position: absolute;
     left: 20px;
     bottom: 15px;
+    animation: notificationAnimation 2s ease-in-out;
 }
 
 .nav__ellipsis-notification {
@@ -33,3 +46,4 @@
     position: absolute;
     left: 30px;
 }
+
